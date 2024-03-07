@@ -1,0 +1,273 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Multas",
+    "dateExported": "2024-02-28T14:34:17.713Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e98a3fc1-de27-412e-9f03-1a462ee34bf4",
+            "colId": "6ff1baa4-07c6-4132-acec-3e35768e6d77",
+            "containerId": "",
+            "name": "crearAgente",
+            "url": "http://localhost:3000/crearAgente",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-20T00:58:59.624Z",
+            "modified": "2024-02-28T00:42:32.873Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombreCompleto\": \"Andres Fernando Jimenez Castro\",\n  \"cedula\": \"1088316591\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7a35b464-e08d-45b1-aa8d-cd5b85b0a518",
+            "colId": "6ff1baa4-07c6-4132-acec-3e35768e6d77",
+            "containerId": "",
+            "name": "crearVehiculo",
+            "url": "http://localhost:3000/crearVehiculo",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2024-02-28T00:39:21.090Z",
+            "modified": "2024-02-28T00:40:37.991Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"placa\": \"DGP172\",\n  \"marca\": \"Logan\",\n  \"modelo\": \"2013\",\n  \"color\": \"gris\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "957fa0ac-4272-475d-b24e-81d45731dfd4",
+            "colId": "6ff1baa4-07c6-4132-acec-3e35768e6d77",
+            "containerId": "",
+            "name": "crearMulta",
+            "url": "http://localhost:3000/crearMulta",
+            "method": "POST",
+            "sortNum": 17500,
+            "created": "2024-02-28T01:08:17.653Z",
+            "modified": "2024-02-28T01:28:58.962Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"placa\": \"DGP172\",\n  \"agente\": \"1088316591\",\n  \"tipo\": \"C\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "efa15f8e-7eec-4103-91ea-6fdb01fa1925",
+            "colId": "6ff1baa4-07c6-4132-acec-3e35768e6d77",
+            "containerId": "",
+            "name": "updateAgente",
+            "url": "http://localhost:3000/updateAgente",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-20T01:39:26.282Z",
+            "modified": "2024-02-20T01:40:41.570Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombreCompleto\": \"Andres Fernando Jimenez Castro\",\n  \"cedula\": \"1088316591\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3fca871a-62fe-4270-87ec-8bf9c3fe4e2d",
+            "colId": "6ff1baa4-07c6-4132-acec-3e35768e6d77",
+            "containerId": "",
+            "name": "updateVehiculo",
+            "url": "http://localhost:3000/updateVehiculo",
+            "method": "POST",
+            "sortNum": 25000,
+            "created": "2024-02-28T00:42:40.137Z",
+            "modified": "2024-02-28T00:46:34.289Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"placa\": \"DGP172\",\n  \"marca\": \"Logan\",\n  \"modelo\": \"2013\",\n  \"color\": \"Gris\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "be87dd25-f384-4630-9df8-a3f5f3a86835",
+            "colId": "6ff1baa4-07c6-4132-acec-3e35768e6d77",
+            "containerId": "",
+            "name": "obtenerAgente",
+            "url": "http://localhost:3000/obtenerAgente",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-20T01:45:13.288Z",
+            "modified": "2024-02-20T02:15:14.207Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"cedula\": \"1088316591\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2512aa97-1cee-477c-896e-83726121f86c",
+            "colId": "6ff1baa4-07c6-4132-acec-3e35768e6d77",
+            "containerId": "",
+            "name": "obtenerVehiculo",
+            "url": "http://localhost:3000/obtenerVehiculo",
+            "method": "POST",
+            "sortNum": 35000,
+            "created": "2024-02-28T00:43:15.093Z",
+            "modified": "2024-02-28T00:43:46.257Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"placa\": \"DGP172\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "323447ea-2186-4e01-a353-47637a3ad255",
+            "colId": "6ff1baa4-07c6-4132-acec-3e35768e6d77",
+            "containerId": "",
+            "name": "obtenerMulta",
+            "url": "http://localhost:3000/obtenerMulta",
+            "method": "POST",
+            "sortNum": 37500,
+            "created": "2024-02-28T01:28:11.733Z",
+            "modified": "2024-02-28T01:28:19.889Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"placa\": \"DGP172\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2fd9faf3-1e4b-4276-a395-c24f093712e1",
+            "colId": "6ff1baa4-07c6-4132-acec-3e35768e6d77",
+            "containerId": "",
+            "name": "eliminarAgente",
+            "url": "http://localhost:3000/eliminarAgente",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-02-20T02:10:20.623Z",
+            "modified": "2024-02-20T02:20:41.361Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"cedula\": \"1088316591\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ca62b8c6-e7ad-4074-9e78-7bfd28b0260c",
+            "colId": "6ff1baa4-07c6-4132-acec-3e35768e6d77",
+            "containerId": "",
+            "name": "eliminarVehiculo",
+            "url": "http://localhost:3000/eliminarVehiculo",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-02-28T00:48:03.285Z",
+            "modified": "2024-02-28T00:48:36.881Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"placa\": \"DGP172\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "50c55030-6926-424f-8593-bc1d39c98513",
+            "colId": "6ff1baa4-07c6-4132-acec-3e35768e6d77",
+            "containerId": "",
+            "name": "pagarMulta",
+            "url": "http://localhost:3000/pagarMulta",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-02-28T01:39:08.374Z",
+            "modified": "2024-02-28T01:40:19.239Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"idmulta\": \"2\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
